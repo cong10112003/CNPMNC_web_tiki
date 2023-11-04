@@ -5,6 +5,7 @@ import {
   WrapperReportText,
   WrapperPriceDiscountText,
   WrapperCardStyle,
+  WrapperTextSell
 } from "./style";
 import { StarFilled } from "@ant-design/icons";
 import logo from "../../Assets/Image/verifyCheck.png";
@@ -35,15 +36,15 @@ const CartComponent = () => {
         }}
       />
       <StyleNameProduct>Em gái</StyleNameProduct>
-      <WrapperReportText style={{ marginRight: "4px" }}>
-        <span>
+      <WrapperReportText >
+        <span style={{ marginRight: "4px" }}>
           <span>4.68</span>{" "}
           <StarFilled style={{ fontSize: "12px", color: "yellow" }} />
         </span>
-        <span>| Đã bán: 1000+ lần</span>
+        <WrapperTextSell>| Đã bán: 1000+ lần</WrapperTextSell>
       </WrapperReportText>
       <WrapperPriceText>
-        1.000.000 VNĐ
+        <span style={{ marginRight: '8px'}}>1.000.000 VND</span>
         <WrapperPriceDiscountText>-30%</WrapperPriceDiscountText>
       </WrapperPriceText>
     </WrapperCardStyle>

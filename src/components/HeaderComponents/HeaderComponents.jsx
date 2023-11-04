@@ -1,4 +1,4 @@
-import { Col, Flex } from "antd";
+import { Badge, Col, Flex } from "antd";
 import React from "react";
 import {
   WrapperHeader,
@@ -6,7 +6,6 @@ import {
   WrapperTextHeaderSmall,
   WrapperUserHeader,
 } from "./style";
-import Search from "antd/es/input/Search";
 import {
   UserOutlined,
   CaretDownFilled,
@@ -16,12 +15,12 @@ import ButtonInputSearch from "../ButtonInputSearch/ButtonInputSearch";
 
 const HeaderComponents = () => {
   return (
-    <div>
+    <div style={{ width: '100%', background: 'rgb(26, 148, 255)', display: 'flex', justifyContent: 'center'}}>
       <WrapperHeader>
-        <Col span={6}>
+        <Col span={5}>
           <WrapperTextHeader>BANTUMLUM</WrapperTextHeader>
         </Col>
-        <Col span={12}>
+        <Col span={13}>
           <ButtonInputSearch
             size="large"
             placeholder="Tìm kiếm ở đây"
@@ -30,7 +29,7 @@ const HeaderComponents = () => {
         </Col>
         <Col
           span={6}
-          style={{ display: "flex", gap: "20px", alignItems: "center" }}
+          style={{ display: "flex", gap: "54px", alignItems: "center" }}
         >
           <WrapperUserHeader>
             <UserOutlined style={{ fontSize: "30px" }} />
@@ -45,9 +44,10 @@ const HeaderComponents = () => {
 
           <div>
             <div>
+              <Badge count={4} size="small">
               <ShoppingCartOutlined
-                style={{ fontSize: "30px", color: "#fff" }}
-              />
+                style={{ fontSize: "30px", color: "#fff" }}/>
+              </Badge>
               <WrapperTextHeaderSmall>Giỏ hàng</WrapperTextHeaderSmall>
             </div>
           </div>
