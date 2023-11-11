@@ -22,3 +22,15 @@ export const WrapperTextPrice = styled.div`
         background-color: rgb(238, 238, 238);
         width: fit-content;
 `
+export const WrapperTittleNavItem = styled.h2`
+        font-size: 18px;
+        font-size: 500;
+        color: rgb(26, 148, 255);
+`
+export const UnderLine = styled.div`
+        width: auto;
+        height: 1px;
+        background-color: black;
+        border-radius: 9px;
+        margin-top: 10px;
+`

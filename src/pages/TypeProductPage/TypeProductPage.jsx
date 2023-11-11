@@ -7,9 +7,9 @@ const TypeProductPage = () => {
   const onChange = () => {}
   return (
     <div style={{width: '100%', background: '#efefef'}}>
-      <div style={{ width: '1270px', margin: '0 auto'}}>
+      <div style={{ width: '1370px', margin: '0 auto'}}>
         <Row  style={{  flexWrap: 'nowrap',paddingTop: '10px'}}>
-            <WrapperNavBar span={4}>
+            <WrapperNavBar span={6} >
                 <NavBarComponent />
             </WrapperNavBar>
             <Col span={20}>
