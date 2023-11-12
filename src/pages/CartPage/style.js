@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const WrapperFrameRight = styled.div`
-    height: fit-content;
+    height: 300px;
     width: 700px;
     background-color: white;
     padding: 10px;

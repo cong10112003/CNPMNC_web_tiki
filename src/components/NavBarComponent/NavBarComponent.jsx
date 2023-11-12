@@ -124,7 +124,7 @@ const NavBarComponent = () => {
 
                 <WrapperTittleNavItem>Khách hàng đánh giá</WrapperTittleNavItem>
 
-                <div>
+                <div style={{cursor: 'pointer'}}>
                     <StarFilled
                         style={{ fontSize: "18px", color: "rgb(253, 216, 54)" }}
                     />
@@ -145,7 +145,7 @@ const NavBarComponent = () => {
                     </span>
                 </div>
                 
-                <div>
+                <div style={{cursor: 'pointer'}}>
                     <StarFilled
                         style={{ fontSize: "18px", color: "rgb(253, 216, 54)" }}
                     />
@@ -166,7 +166,7 @@ const NavBarComponent = () => {
                     </span>
                 </div>
 
-                <div>
+                <div style={{cursor: 'pointer'}}>
                     <StarFilled
                         style={{ fontSize: "18px", color: "rgb(253, 216, 54)" }}
                     />
@@ -187,7 +187,7 @@ const NavBarComponent = () => {
                     </span>
                 </div>
 
-                <div>
+                <div style={{cursor: 'pointer'}}>
                     <StarFilled
                         style={{ fontSize: "18px", color: "rgb(253, 216, 54)" }}
                     />
@@ -208,7 +208,7 @@ const NavBarComponent = () => {
                     </span>
                 </div>
 
-                <div>
+                <div style={{cursor: 'pointer'}}>
                     <StarFilled
                         style={{ fontSize: "18px", color: "rgb(253, 216, 54)" }}
                     />

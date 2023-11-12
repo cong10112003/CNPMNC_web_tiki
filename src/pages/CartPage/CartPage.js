@@ -2,6 +2,7 @@ import React from 'react'
 import { WrapperFrame, UnderLine, WrapperFrameRight, WrapperFrameLeft, WrapperTextBold, WrapperText } from './style'
 import { Empty} from 'antd'
 import ButtonComponent from '../../components/ButtonComponent/ButtonComponent';
+import CartItemComponent from '../../components/CartItemComponent/CartItemComponent';
 
 const CartPage = () => {
   return (
@@ -14,11 +15,12 @@ const CartPage = () => {
                 </span>
                 <div style={{display: 'flex', flexDirection: 'row'}}>
                     <WrapperFrameRight>
-                        <Empty description={
+                        {/* <Empty description={
                             <span>
                                 Chưa có sản phẩm trong giỏ hàng! <a href="#API">Mua ngay</a>
                             </span>
-                            }/>
+                            }/> */}
+                        <CartItemComponent />
                     </WrapperFrameRight>
 
                     <WrapperFrameLeft>
