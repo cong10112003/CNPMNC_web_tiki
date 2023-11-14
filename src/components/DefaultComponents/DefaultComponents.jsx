@@ -6,7 +6,6 @@ const DefaultComponents =({children}) => {
     return(
     <div>
         <HeaderComponents />
-        <DropDownComponent />
         {children}
         <FooterComponent />
         
